@@ -2,6 +2,11 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+
+/[Aa]ssets/Assets/
+/[Aa]ssets/EffectExamples/
+/[Aa]ssets/Settings/
+/[Aa]ssets/Presets/
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
