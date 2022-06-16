@@ -276,46 +276,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c2136201c208f4bb540b1319f635c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nonADSTiltIntensity: 5
-  nonADSTiltSmoothness: 5
-  nonADSMaxRotation: 12
-  adsTiltIntensity: 1
-  adsTiltSmoothness: 1
-  adsMaxRotation: 2
-  tiltIntensity: 5
-  tiltSmoothness: 5
-  maxRotation: 12
+  idleSwayScriptableObject: {fileID: 11400000, guid: 4d9434ec4e73622438ea6783a6713b7c, type: 2}
+  walkingSwayScriptableObject: {fileID: 11400000, guid: bb9868b271b5cb8499f05da6e521a54b, type: 2}
+  runningSwayScriptableObject: {fileID: 11400000, guid: 77c86402b1943e34c9e27206d27eb136, type: 2}
+  aimingSwayScriptableObject: {fileID: 11400000, guid: d0d0cbff95c76404581382f4b1e54f1f, type: 2}
+  nonAdsSensitivityScriptableObject: {fileID: 11400000, guid: fc3f0ee4eb2d51c42aa12ee00c54e800, type: 2}
+  adsSensitivityScriptableObject: {fileID: 11400000, guid: 21b92101c2e79894f8d9fd4d1bd92b6c, type: 2}
   breathTiltIntensity: 1
   maxBreathRotation: 10
   xRotation: 1
   yRotation: 1
   zRotation: 1
   period: 7
-  idleSwayAmountA: 1
-  idleSwayAmountB: 2
-  idleSwayScale: 150
-  idleSwayLerpSpeed: 14
-  idleSwaySpeed: 1
-  walkingSwayAmountA: 1
-  walkingSwayAmountB: 2
-  walkingSwayScale: 50
-  walkingSwayLerpSpeed: 14
-  walkingSwaySpeed: 6
-  runningSwayAmountA: 1
-  runningSwayAmountB: 2
-  runningSwayScale: 50
-  runningSwayLerpSpeed: 14
-  runningSwaySpeed: 8
-  aimingSwayAmountA: 0.5
-  aimingSwayAmountB: 1
-  aimingSwayScale: 1000
-  aimingSwayLerpSpeed: 14
-  aimingSwaySpeed: 1
-  swayAmountA: 1
-  swayAmountB: 2
-  swayScale: 100
-  swayLerpSpeed: 14
-  swaySpeed: 1
   lerpDuration: 2
 --- !u!1001 &224563781
 PrefabInstance:
